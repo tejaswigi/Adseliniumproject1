@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="organisation.Createorganisationtest">
+        <methods>
+          <include name="Createorganisation"/>
+        </methods>
+      </class> <!-- organisation.Createorganisationtest -->
+      <class name="campaigns.Createcampaigntest">
+        <methods>
+          <include name="AM"/>
+          <include name="createcampaigntest"/>
+          <include name="BM"/>
+          <include name="As"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+        </methods>
+      </class> <!-- campaigns.Createcampaigntest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
